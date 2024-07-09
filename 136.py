@@ -3,7 +3,7 @@ class Solution(object):
         nums_copy = nums
         while len(nums_copy) != 0:
             temp = nums_copy.pop(0)
-            print(nums_copy)
+            #print(nums_copy)
             if temp in nums_copy:
                 nums_copy.remove(temp)
                 continue
